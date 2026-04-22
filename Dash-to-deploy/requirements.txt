@@ -8,3 +8,4 @@ streamlit-cookies-controller
 pyotp
 qrcode[pil]
 gspread
+reportlab
