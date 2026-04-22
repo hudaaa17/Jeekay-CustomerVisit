@@ -105,11 +105,6 @@ def show_login_page():
     </style>
     """, unsafe_allow_html=True)
 
-    def get_base64(img_path):
-        with open(img_path, "rb") as f:
-            return base64.b64encode(f.read()).decode()  
-
-    logo = get_base64("logo.png") 
 
     # Branding
     st.markdown(f"""
