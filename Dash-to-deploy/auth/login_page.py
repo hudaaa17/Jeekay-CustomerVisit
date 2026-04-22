@@ -108,10 +108,6 @@ def show_login_page():
 
     # Branding
     st.markdown(f"""
-        <div style="text-align:center; margin-bottom:10px;">
-        <img src="data:image/png;base64,{logo}" width="400"  height="200"
-        style="border-radius:8px;">
-           </div>
         <div style="font-family:'IM Fell English',serif; font-size:26px;
                     color:#1B2A4A; text-align:center; margin-bottom:4px;">
             Customer Visit Report
